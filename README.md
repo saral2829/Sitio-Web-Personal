@@ -1,21 +1,44 @@
-# PROYECTO FINAL BECA BICENTENARIO
+# PROYECTO FINAL SITIO WEB PERSONAL
 
-## Clonar un repositorio: git clone URLdelRepositorio
+Es un sitio web personal de un desarrolador web.
 
-## Crear nueva rama: git checkout -b nombreDeLaRama
+## Tecnologías
 
-## Moverse entre ramas: git switch nombreDeLaRama
+- HTML
+- CSS
+- Bootstrap
+- Javascript
 
-## Ver listado de ramas: git branch -a
+## Fuentes
 
-## Jalar ramas de la nube: git fetch
+- Lobster Two', cursive; --> Títulos
+- Poppins', sans-serif; --> Párrafos
+- Color-base: #cbaa51;
 
-## Empujar mi rama a la nube: git push origin nombreDeLaRama
+## Git
 
-## Jalar los cambios de una rama: git pull origin nombreDeLaRama
+- Clonar un repositorio: git clone URLdelRepositorio
 
-## Linkear su repositorio local a Github: git remote add origin URLdelRepositorio
+- Crear nueva rama: git checkout -b nombreDeLaRama
 
-## Stagear cambios: git add .
+- Moverse entre ramas: git switch nombreDeLaRama
 
-## Commitear cambios: git commit -m "nombre del commit"
+- Ver listado de ramas: git branch -a
+
+- Jalar ramas de la nube: git fetch
+
+- Empujar mi rama a la nube: git push origin nombreDeLaRama
+
+- Jalar los cambios de una rama: git pull origin nombreDeLaRama
+
+- Stagear cambios: git add .
+
+- Commitear cambios: git commit -m "nombre del commit"
+
+# INTEGRANTES
+
+- Leslie Sarybell Gómez Vargas
+- Franklin Espinoza Espíndola
+- Jean Carlos
+- Daniel Olger Guzman Rosas
+- Maribel Torres Guevara
