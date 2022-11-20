@@ -46,10 +46,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-::root{
+:root{
     --colo-base: #cbaa51;
 }
 
     /* font-family: 'Lobster Two', cursive; :  TITULOS*/
     /* font-family: 'Poppins', sans-serif; :PARRAFOS */
     /* color-base: #cbaa51 */
+	
