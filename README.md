@@ -1,21 +1,54 @@
-# PROYECTO FINAL BECA BICENTENARIO
+<h1 align="center">PROYECTO FINAL - SITIO WEB PERSONAL</h1>
 
-## Clonar un repositorio: git clone URLdelRepositorio
+<p align="center">
+  <img src="assets/img/logo.webp" width="250px">
+</p>
 
-## Crear nueva rama: git checkout -b nombreDeLaRama
+<br>
 
-## Moverse entre ramas: git switch nombreDeLaRama
+Nuestro proyecto está basado en una Frontend Developer que utiliza su página como un escaparate para mostrar su perfil profesional.
 
-## Ver listado de ramas: git branch -a
+Consta de varias secciones, entre ellas la presentación, su familia, sus estudios, amigos y un formulario de contácto, a travéz del cual nuestra desarrolladora puede ser contactada.
 
-## Jalar ramas de la nube: git fetch
+Empleamos los estándares actuales en la industria para mantener la legibilidad del código y que sea fácilmente mantenible.
 
-## Empujar mi rama a la nube: git push origin nombreDeLaRama
+<br>
 
-## Jalar los cambios de una rama: git pull origin nombreDeLaRama
+## Tecnologías
 
-## Linkear su repositorio local a Github: git remote add origin URLdelRepositorio
+- HTML5
+- CSS3
+- Bootstrap 5
+- Javascript
 
-## Stagear cambios: git add .
+## Fuentes
 
-## Commitear cambios: git commit -m "nombre del commit"
+- Lobster Two', cursive; --> Títulos
+- Poppins', sans-serif; --> Párrafos
+- Color-base: #cbaa51;
+
+## Git
+
+- Clonar un repositorio: git clone URLdelRepositorio
+- Crear nueva rama: git checkout -b nombreDeLaRama
+- Moverse entre ramas: git switch nombreDeLaRama
+- Ver listado de ramas: git branch -a
+- Jalar ramas de la nube: git fetch
+- Empujar mi rama a la nube: git push origin nombreDeLaRama
+- Jalar los cambios de una rama: git pull origin nombreDeLaRama
+- Stagear cambios: git add .
+- Commitear cambios: git commit -m "nombre del commit"
+
+<br>
+
+---
+
+<br>
+
+## INTEGRANTES
+
+- Leslie Sarybell Gómez Vargas
+- Franklin Espinoza Espíndola
+- Jean Carlos
+- Daniel Olger Guzman Rosas
+- Maribel Torres Guevara
