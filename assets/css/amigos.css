@@ -1,0 +1,154 @@
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root{
+    --colo-base: #cbaa51;
+	--color-black:rgba(0, 0, 0, 0.186);
+	
+}
+
+    /* font-family: 'Lobster Two', cursive; :  TITULOS*/
+    /* font-family: 'Poppins', sans-serif; :PARRAFOS */
+    /* color-base: #cbaa51 */
+.cont--header{
+	/* position: fixed;
+	top: 0;
+	bottom: ; */
+	box-shadow: var(--color-black) 0px 0px 5px 5px ;
+	background-color: white;
+}
+.options {
+	display: contents; 
+	justify-content:flex-end ;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	
+}
+.nav-item:hover{
+	border: #cbaa51 3px;
+	border-style: solid;
+	background-color: var(--colo-base);
+	color: white; 
+	border-radius: 8px;
+}
+.options .nav-link:hover{
+	color: white;
+	font-weight: bold;
+
+}
+.options .nav-link{
+	color: var(--colo-base);
+	font-weight: bold;
+}
+
+.bg--container{
+	/* background-image: url(../img/amigos.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+	height: auto; */
+	/* max-height: 100%; */
+	background-color: var(--colo-base);
+	position: absolute;
+	display: grid;
+	top: 0;
+	z-index: -5;
+	
+
+}
+
+/* .text--tit{
+	display: grid;
+}
+.text-center{
+	display: grid;	
+	position: absolute;
+	justify-items: end;
+	
+} */
+
+.text--tit h2{
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lobster Two', cursive;
+	font-size: 3.2rem;
+	color: white;
+	font-weight: bold; 
+	
+} 
+.foot-backgroud {
+	background-color: var(--colo-base);
+}
+.icons--footer  a {
+
+	padding: 10px;
+	color: black;
+	text-decoration: none;
+  
+  }
+
+@media (min-width: 992px){
+	.text--tit h2{
+		margin-top: -280px;
+		/* margin-bottom: 280px; */
+	}
+	.section--amigos{
+		margin-top:325px; 
+		background-color: white;
+		
+	}
+	.img-bg-amigos{
+		background-image: url(../img/amigas.jpg);
+		background-size: contain;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+}
