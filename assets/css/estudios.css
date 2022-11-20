@@ -1,0 +1,168 @@
+:root {
+  --color-base: #cbaa51;
+  --font-family-titulo: "Lobster Two", cursive;
+  --font-family-parrafos: "Poppins", sans-serif;
+  --text-color: hsl(360, 8%, 45%);
+  --title-color: hsl(360, 8%, 15%);
+}
+
+body {
+  font-family: var(--font-family-parrafos);
+}
+
+.icon-title,
+.skills-title {
+  color: var(--color-base);
+  font-family: var(--font-family-titulo);
+}
+
+.studies h3 {
+  color: var(--title-color);
+}
+
+.studies p {
+  color: var(--text-color);
+}
+
+.courses-data {
+  column-gap: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+}
+
+.courses-data i {
+  color: var(--color-base);
+}
+
+.course-calendar {
+  color: hsl(360, 8%, 65%);
+}
+
+.course-rounder {
+  background-color: var(--color-base);
+  border-radius: 50%;
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+}
+
+.course-line {
+  background-color: var(--color-base);
+  display: block;
+  height: 100%;
+  transform: translate(6px, -7px);
+  width: 1px;
+}
+
+.skills-header {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+}
+
+.open .skills-list {
+  height: 224px;
+}
+
+.skills-list {
+  height: 0px;
+  max-width: 64%;
+  margin: auto;
+  overflow: hidden;
+  transition: height 0.8s;
+}
+
+.skills-icon,
+.skills-arrow {
+  color: var(--color-base);
+  font-size: 3.5rem;
+}
+
+.skills-titles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills p,
+.skills-subtitle {
+  color: var(--text-color);
+  font-size: 0.8rem;
+}
+
+.skills-bar {
+  background-color: #cbaa5170;
+}
+
+.skills-bar,
+.skills-porcentage {
+  border-radius: 0.25rem;
+  height: 6px;
+}
+
+.skills-html {
+  width: 90%;
+}
+
+.skills-css {
+  width: 80%;
+}
+
+.skills-javascript {
+  width: 50%;
+}
+
+.skills-bootstrap {
+  width: 70%;
+}
+
+.skills-php {
+  width: 5%;
+}
+
+.skills-nodejs {
+  width: 15%;
+}
+
+.skills-java {
+  width: 5%;
+}
+
+.skills-python {
+  width: 7%;
+}
+
+.skills-figma {
+  width: 50%;
+}
+
+.skills-sketch {
+  width: 40%;
+}
+
+.skills-photoshop {
+  width: 50%;
+}
+
+.skills-illustrator {
+  width: 20%;
+}
+
+.skills-porcentage {
+  background-color: var(--color-base);
+  display: block;
+}
+
+.skills-data .skills-number {
+  color: var(--text-color);
+}
+
+.skills-arrow {
+  transition: 0.4s;
+}
+
+.open .skills-arrow {
+  transform: rotate(-180deg);
+}
