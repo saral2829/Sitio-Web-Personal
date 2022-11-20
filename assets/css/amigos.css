@@ -52,6 +52,7 @@ table {
 :root{
     --colo-base: #cbaa51;
 	--color-black:rgba(0, 0, 0, 0.186);
+	--base-tranparent: #cbaa51a9;
 	
 }
 
@@ -124,7 +125,95 @@ table {
 	font-weight: bold; 
 	
 } 
-.foot-backgroud {
+
+
+
+
+/* SECCION VIAJES */
+.cont--viajes:hover img{
+	-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+.cont--viajes{
+	overflow:hidden;
+}
+
+
+
+.viajes--img {
+	font-family: 'Lobster Two', cursive;
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+	min-width: 230px;
+	/* max-width: 315px; */
+	width: 100%;
+	color: #141414;
+	text-align: left;
+	line-height: 1.4em;
+	font-size: 16px;
+  }
+  .viajes--img * {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.35s ease;
+	transition: all 0.35s ease;
+  }
+  .viajes--img img {
+	max-width: 100%;
+	vertical-align: top;
+  }
+  .viajes--img figcaption {
+	position: absolute;
+	top: calc(83%);
+	width: 100%;
+	background-color: var(--colo-base) ;
+	padding: 15px 25px 65px;
+  }
+  .viajes--img figcaption:before {
+	position: absolute;
+	content: '';
+	z-index: 2;
+	bottom: 100%;
+	left: 0;
+	width: 100%;
+	height: 80px;
+	background-image: -webkit-linear-gradient(top, transparent 0%, var(--colo-base)  100%);
+	background-image: linear-gradient(to bottom, transparent 0%, var(--colo-base) 100%);
+  }
+  .viajes--img h3,
+  .viajes--img p {
+	margin: 0 0 10px;
+  }
+  .viajes--img h3 {
+	font-weight: 700;
+	font-size: 1.4em;
+	line-height: 1.2em;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	text-transform: uppercase;
+  }
+  .viajes--img p {
+	font-size: 0.9em;
+	letter-spacing: 1px;
+	opacity: 0.9;
+  }
+  .viajes--img a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+  }
+  .viajes--img:hover figcaption,
+  .viajes--img.hover figcaption {
+	display: none;
+  }
+
+  /* FOOTER */
+  .foot-backgroud {
 	background-color: var(--colo-base);
 }
 .icons--footer  a {
