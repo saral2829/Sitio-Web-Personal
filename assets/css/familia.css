@@ -6,10 +6,10 @@ ul {
 
 .bg--container{
 	background-color: var(--colo-base);
-	position: absolute;
+	/* position: absolute;
 	display: grid;
 	top: 0;
-	z-index: -5;
+	z-index: -5; */
    
 }
 
@@ -25,8 +25,8 @@ ul {
 
 
 .container{
-    margin-top: 100px;
-    display: flex;
+    /* margin-top: 100px; */
+    /* display: flex; */
 }
 
 .text{
