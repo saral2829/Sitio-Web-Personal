@@ -52,7 +52,7 @@ table {
 :root{
     --colo-base: #cbaa51;
 	--color-black:rgba(0, 0, 0, 0.186);
-	--base-tranparent: #cbaa51a9;
+	--base-tranparent: rgba(203, 170, 81, 0.663);
 	
 }
 
