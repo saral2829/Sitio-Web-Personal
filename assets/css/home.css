@@ -200,8 +200,7 @@ body {
   font-family: var(--font-family-parrafos);
 }
 
-h1,
-h2 {
+.home-title .about-title {
   font-family: var(--font-family-titulo);
   font-size: 2rem;
 }
@@ -745,4 +744,8 @@ img {
   .contact-inputs {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+.home-title, .section-title {
+  font-family: var(--font-family-titulo);
+  font-size: 2rem;
 }
