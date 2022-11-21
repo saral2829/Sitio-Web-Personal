@@ -52,8 +52,25 @@ table {
 :root{
     --colo-base: #cbaa51;
 	--color-black:rgba(0, 0, 0, 0.186);
-	--base-tranparent: #cbaa51a9;
+	--base-tranparent: rgba(203, 170, 81, 0.663);
 	
+}
+
+.text--parrafo{
+     font-family: 'Poppins', sans-serif;
+	 font-weight:600;
+}
+
+.text--titles{
+	font-family: 'Lobster Two', cursive;
+	font-size:2.5rem;
+	font-weight:bold;
+}
+
+.text--titles span{
+	color: var(--colo-base);
+	font-family: 'Lobster Two', cursive;
+	font-size:2.5rem;
 }
 
     /* font-family: 'Lobster Two', cursive; :  TITULOS*/
@@ -219,9 +236,31 @@ table {
 .icons--footer  a {
 
 	padding: 10px;
-	color: black;
+	color: white;
 	text-decoration: none;
+	width: 100%;
+	height: 80px;	
+	/* text-align:center; */
   
+  }
+
+  .icons--footer a:hover{
+	color: black;
+  }
+
+  .text--footer{
+	font-family: 'Lobster Two', cursive;
+	font-size:1.8rem;
+	font-weight:bold;
+	/* text-align:center; */
+	color:white;
+  }
+
+  .text--parrafo--footer{
+	font-family: 'Poppins', sans-serif; 
+	color:white;
+	font-weight:bold;
+	font-size:1.2rem;
   }
 
 @media (min-width: 992px){
