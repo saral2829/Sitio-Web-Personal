@@ -13,15 +13,16 @@ ul {
    
 }
 
-.text--tit h2{
+.text h2{
 	align-items: center;
 	justify-content: center;
 	font-family: 'Lobster Two', cursive;
 	font-size: 3.2rem;
-	color: white;
 	font-weight: bold; 
+    text-align: center;
 	
 } 
+
 
 
 /* .container{
@@ -32,7 +33,12 @@ ul {
 .text{
    
     text-align: justify;
+    
 
+}
+.texto{
+    margin-top: 100px;
+    display: flex;
 }
 
 .img{
@@ -47,4 +53,3 @@ ul {
     /* font-family: 'Lobster Two', cursive; :  TITULOS*/
     /* font-family: 'Poppins', sans-serif; :PARRAFOS */
     /* color-base: #cbaa51 */
-	
