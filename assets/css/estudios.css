@@ -4,10 +4,82 @@
   --font-family-parrafos: "Poppins", sans-serif;
   --text-color: hsl(360, 8%, 45%);
   --title-color: hsl(360, 8%, 15%);
+  --color-black: rgba(0, 0, 0, 0.186);
 }
 
 body {
   font-family: var(--font-family-parrafos);
+}
+
+.full-width {
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  position: relative;
+  width: 100vw;
+}
+
+.cont--header {
+  /* position: fixed;
+	top: 0;
+	bottom: ; */
+  box-shadow: var(--color-black) 0px 0px 5px 5px;
+  background-color: white;
+}
+.options {
+  display: contents;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.nav-item:hover {
+  border: #cbaa51 3px;
+  border-style: solid;
+  background-color: var(--colo-base);
+  color: white;
+  border-radius: 8px;
+}
+.options .nav-link:hover {
+  color: white;
+  font-weight: bold;
+}
+.options .nav-link {
+  color: var(--colo-base);
+  font-weight: bold;
+}
+
+.bg--container {
+  /* background-image: url(../img/amigos.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+	height: auto; */
+  /* max-height: 100%; */
+  background-color: var(--colo-base);
+  position: absolute;
+  display: grid;
+  top: 0;
+  z-index: -5;
+}
+
+/* .text--tit{
+	display: grid;
+}
+.text-center{
+	display: grid;	
+	position: absolute;
+	justify-items: end;
+	
+} */
+
+.text--tit h2 {
+  align-items: center;
+  justify-content: center;
+  font-family: "Lobster Two", cursive;
+  font-size: 3.2rem;
+  color: white;
+  font-weight: bold;
 }
 
 .icon-title,

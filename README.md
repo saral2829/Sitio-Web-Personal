@@ -1,7 +1,9 @@
 <h1 align="center">PROYECTO FINAL - SITIO WEB PERSONAL</h1>
 
 <p align="center">
-  <img src="assets/img/logo.webp" width="250px">
+  <a href="https://saral2829.github.io/Sitio-Web-Personal/" target="_blank">
+    <img src="assets/img/logo.webp" width="320px">
+  </a>
 </p>
 
 <br>
@@ -11,6 +13,9 @@ Nuestro proyecto está basado en una Frontend Developer que utiliza su página c
 Consta de varias secciones, entre ellas la presentación, su familia, sus estudios, amigos y un formulario de contácto, a travéz del cual nuestra desarrolladora puede ser contactada.
 
 Empleamos los estándares actuales en la industria para mantener la legibilidad del código y que sea fácilmente mantenible.
+
+Este sitio web está basado en este wireframe:
+[link](https://balsamiq.cloud/sdwbtxy/pf4arel/r2278)
 
 <br>
 
