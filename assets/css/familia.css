@@ -1,0 +1,50 @@
+
+ul {
+	list-style:none;
+}
+
+
+.bg--container{
+	background-color: var(--colo-base);
+	position: absolute;
+	display: grid;
+	top: 0;
+	z-index: -5;
+   
+}
+
+.text--tit h2{
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lobster Two', cursive;
+	font-size: 3.2rem;
+	color: white;
+	font-weight: bold; 
+	
+} 
+
+
+.container{
+    margin-top: 100px;
+    display: flex;
+}
+
+.text{
+   
+    text-align: justify;
+
+}
+
+.img{
+    width: 350px;
+    height: 250px;
+}
+
+:root{
+    --colo-base: #cbaa51;
+}
+
+    /* font-family: 'Lobster Two', cursive; :  TITULOS*/
+    /* font-family: 'Poppins', sans-serif; :PARRAFOS */
+    /* color-base: #cbaa51 */
+	
