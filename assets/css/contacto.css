@@ -82,7 +82,7 @@ form{
 
 form .grupo{
     position:relative;
-    margin: 45px;
+    padding: 15px;
 }
 
 input{
