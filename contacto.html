@@ -4,15 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contáctanos</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/logo.webp">
     <!-- TIPO DE LETRA PARA PARRAFOS -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <!-- TIPO DE LETRA PARA TITULO -->
-    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+    crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+    <link rel="stylesheet" href="assets/css/contacto.css"/>
+  
+
 </head>
-<body>
-    
+<body>       
+    <header class="cont--header sticky-top">
+        <div class="container">
+          <nav class="nav row">
+            <div class="col-md-4 col-12">
+              <img src="assets/img/logo.webp" width="60%" height="auto" alt="" />
+            </div>
+            <div
+              class="nav col-md-8 col-12 justify-content-end align-content-center d-flex"
+            >
+              <ul class="options">
+                <li class="nav-item"><a href="amigos.html" class="nav-link">Amigos</a></li>
+                <li class="nav-item"><a href="familia.html" class="nav-link">Familia</a></li>
+                <li class="nav-item"><a href="estudios.html" class="nav-link">Estudios</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </header>
+
+    <form action="" method="POST" id="form">
+    <div class="form">
+        <div class="fs-1 icon-title fw-semibold my-3 text-center"> Contáctanos </div>
+    <table> 
+        <tr>
+            <td>
+                <div class="grupo">
+                <input type="text"  name="" required><span class="barra"></span>
+                <label for="">Nombre</label>
+                </div>
+            </td>
+            <td>
+                <div class="grupo">
+                <input type="text"  name="" required><span class="barra"></span>
+                <label for="">Apellidos</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="grupo">
+                <input type="email"  name="" required><span class="barra"></span>
+                <label for="">Email</label>
+                </div>
+            </td>
+            <td>
+                <div class="grupo">
+                <input type="text" name="" size="10" maxlength="9" required><span class="barra"></span>
+                <label for="">Celular</label>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="grupo">
+                <label for="">Tipo de documento</label><br/><br/>
+                <select id="" name="">
+                    <option value="" selected="selected">- Selecciona -</option>
+                    <option value="">DNI</option>
+                    <option value="">Pasaporte</option>
+                    <option value="">Carnet de Extranjeria</option>
+                    <option value="">Otro</option>
+                </select>
+                
+                </div>
+            </td>
+            <td>
+                <div class="grupo">
+                    <input type="text" name="" size="10" maxlength="8" required><span class="barra"></span>
+                    <label for="">N° Documento</label>
+                </div>
+            </td>
+        </tr>
+    </table> 
+                <div class="grupo">
+                <label for="">Detallanos tus inquietudes</label><br/><br/>
+                <textarea name="Mensaje"  cols="50" rows="5"></textarea>
+                
+                </div>
+
+        <button type="submit"><strong>Enviar</strong></button>
+    </form>
+
 </body>
 </html>
