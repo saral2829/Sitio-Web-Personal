@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>ESTUDIOS | HELEN GARCIA</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/logo.webp">
     <!-- TIPO DE LETRA PARA PARRAFOS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,23 +37,61 @@
   </head>
   <body>
     <header class="cont--header sticky-top">
-      <div class="container">
-        <nav class="nav row">
+      <div class="container d-md-block   d-none">
+        <nav class="nav row ">
           <div class="col-md-4 col-12">
-            <img src="assets/img/logo.webp" width="60%" height="auto" alt="" />
+            <a href="index.html">
+              <img src="assets/img/logo.webp" width="60%" height="auto" alt="" />
+            </a>   
           </div>
           <div
-            class="nav col-md-8 col-12 justify-content-end align-content-center d-flex"
-          >
+            class="nav col-md-8 col-12 justify-content-end align-content-center d-flex">
             <ul class="options">
-              <li class="nav-item"><a href="" class="nav-link">Amigos</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Familia</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Estudios</a></li>
-              <li class="nav-item"><a href="" class="nav-link">Contacto</a></li>
+              <li class="nav-item"><a href="amigos.html" class="nav-link">{Amigos}</a></li>
+              <li class="nav-item"><a href="familia.html" class="nav-link">{Familia}</a></li>
+              <li class="nav-item"><a href="estudios.html" class="nav-link">{Estudios}</a></li>
+              <li class="nav-item"><a href="contacto.html" class="nav-link">{Contacto}</a></li>
             </ul>
           </div>
         </nav>
+  
+        
       </div>
+  
+      <nav class="navbar bg-dark fixed-top d-sm-none d-block">
+        <div class="container-fluid row g-2 d-flex ">
+          <div class="col-6">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/logo.webp" width="40%" height="auto" alt="" />
+            </a>
+          </div>
+         
+          <div class="col-6 justify-content-end d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+         
+          <div class="offcanvas offcanvas-end bg-dark " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <img class="offcanvas-title" src="./assets/img/logo.webp" width="60%" height="auto" id="offcanvasNavbarLabel">
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item text-responsive">
+                  <a class="nav-link "href="#">Inicio</a>
+                </li>
+                <li class="nav-item text-responsive"><a href="amigos.html" class="nav-link ">Amigos</a></li>
+                <li class="nav-item text-responsive"><a href="familia.html" class="nav-link ">Familia</a></li>
+                <li class="nav-item text-responsive"><a href="estudios.html" class="nav-link ">Estudios</a></li>
+                <li class="nav-item text-responsive"><a href="contacto.html" class="nav-link ">Contacto</a></li>
+               
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <br /><br /><br />
