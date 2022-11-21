@@ -1,0 +1,157 @@
+:root {
+    --color-base: #cbaa51;
+    --font-family-titulo: "Lobster Two", cursive;
+    --font-family-parrafos: "Poppins", sans-serif;
+    --text-color: hsl(360, 8%, 45%);
+    --title-color: hsl(360, 8%, 15%);
+    --color-black: rgba(0, 0, 0, 0.186);
+}
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.cont--header {
+    box-shadow: var(--color-black) 0px 0px 5px 5px;
+    background-color: white;
+}
+  .options {
+    display: contents;
+    justify-content: flex-end;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+}
+  .nav-item:hover {
+    border: #cbaa51 3px;
+    border-style: solid;
+    background-color: var(--color-base);
+    color: white;
+    border-radius: 8px;
+}
+  .options .nav-link:hover {
+    color: white;
+    font-weight: bold;
+}
+  .options .nav-link {
+    color: var(--color-base);
+    font-weight: bold;
+}
+  .bg--container {
+    /* background-image: url(../img/amigos.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      
+      height: auto; */
+    /* max-height: 100%; */
+    background-color: var(--color-base);
+    position: absolute;
+    display: grid;
+    top: 0;
+    z-index: -5;
+  }
+body{
+    font-family: "Poppins", sans-serif;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(203,170,81,1) 0%, rgba(231,217,176,1) 46%, rgba(255,255,255,1) 84%);
+    height: 650px;
+    display:-ms-inline-flexbox;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-title,
+.skills-title {
+  color: var(--color-base);
+  font-family: var(--font-family-titulo);
+}
+
+form{
+    background: rgb(255, 255, 255);
+    padding: 50px 0;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+
+}
+
+.form{
+    width: 30%;
+    margin:auto;
+}
+
+form .grupo{
+    position:relative;
+    margin: 45px;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid var(--text-color);
+}
+
+input:focus{
+    outline: none;
+    color: #e9ab01;
+}
+
+label{
+    color: var(--text-color);
+    font-size: 16px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    transition: 0.5 ease all;
+    pointer-events: none;
+}
+
+input:focus~label,
+input:valid~label{
+    top: -14px;
+    font-size: 12px;
+    transition: 100ms;
+    color: #cf9b00;
+}
+
+button{
+    font-family: 'Lobster Two';
+    background: #fffcfc; 
+    background: #cbaa51;
+    border: none;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: rgb(250, 248, 248);
+    height: 40px;
+    font-size: 16px;
+    cursor:pointer;
+
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
