@@ -17,32 +17,70 @@
 </head>
 <body>
   <header class="cont--header sticky-top">
-    <div class="container">
-      <nav class="nav row">
+    <div class="container d-md-block   d-none">
+      <nav class="nav row ">
         <div class="col-md-4 col-12">
-          <img src="assets/img/logo.webp" width="60%" height="auto" alt="" />
+          <a href="index.html">
+            <img src="assets/img/logo.webp" width="60%" height="auto" alt="" />
+          </a>   
         </div>
         <div
-          class="nav col-md-8 col-12 justify-content-end align-content-center d-flex"
-        >
+          class="nav col-md-8 col-12 justify-content-end align-content-center d-flex">
           <ul class="options">
-            <li class="nav-item"><a href="" class="nav-link">Amigos</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Familia</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Estudios</a></li>
-            <li class="nav-item"><a href="" class="nav-link">Contacto</a></li>
+            <li class="nav-item"><a href="amigos.html" class="nav-link">Amigos</a></li>
+            <li class="nav-item"><a href="familia.html" class="nav-link">Familia</a></li>
+            <li class="nav-item"><a href="estudios.html" class="nav-link">Estudios</a></li>
+            <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
           </ul>
         </div>
       </nav>
+
+      
     </div>
+
+    <nav class="navbar bg-dark fixed-top d-sm-none d-block">
+      <div class="container-fluid row g-2 d-flex ">
+        <div class="col-6">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/logo.webp" width="40%" height="auto" alt="" />
+          </a>
+        </div>
+       
+        <div class="col-6 justify-content-end d-flex">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+       
+        <div class="offcanvas offcanvas-end bg-dark " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <img class="offcanvas-title" src="./assets/img/logo.webp" width="40%" height="auto" id="offcanvasNavbarLabel">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item text-responsive">
+                <a class="nav-link "href="#">Inicio</a>
+              </li>
+              <li class="nav-item text-responsive"><a href="amigos.html" class="nav-link ">Amigos</a></li>
+              <li class="nav-item text-responsive"><a href="familia.html" class="nav-link ">Familia</a></li>
+              <li class="nav-item text-responsive"><a href="estudios.html" class="nav-link ">Estudios</a></li>
+              <li class="nav-item text-responsive"><a href="contacto.html" class="nav-link ">Contacto</a></li>
+             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
   </header>
 
     <main class="m-0">
       <section class="">
         <div class=" bg--container" >
           <img src="assets/img/friends.png" class="img-fluid" alt="...">
-          <div class="text--tit">
-            <h2 class="text-center">AMIGOS</h2>
-          </div>
+          <!-- <div class="text--tit">
+           <h2 class="text-center">AMIGOS</h2> 
+          </div> -->
           
         </div>
        
@@ -57,10 +95,23 @@
           </div> -->
           <div class="row g-4">
             <div class="col-md-3 col-sm-6">
-              <div class="card" >
-                <img src="./assets/img/amigospage/3.jpg" class="card-img-top" alt="...">
+              <div class="card card--style" >
+                <div class="effect--img">
+                  <img src="./assets/img/amigospage/3.jpg" class="card-img-top" alt="...">
+                  <div class="ovrly"></div>
+                  <div class="buttons">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                        <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                      </svg>
+                    </a>
+                
+                  </div>
+                </div> 
+                
                 <div class="card-body">
-                  <h5 class="card-title text-center">Julio Ramírez</h5>
+                  <h5 class="card-title text-center text-tit-amigos ">Julio Ramírez</h5>
                   <p class="card-text text-center text--parrafo">Julio es la persona más graciosa y sencilla que he conocido, nos concemos desde la secundaria y nuestra pasión por los videojuegos nos hizo tomar la decisión de estudiar programación.</p>
                   <!-- <div>
                   </div> -->
@@ -69,20 +120,44 @@
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
-              <div class="card" >
-                <img src="./assets/img/amigospage/2.jpg" class="card-img-top" alt="...">
+              <div class="card card--style" >
+                <div class="effect--img">
+                  <img src="./assets/img/amigospage/2.jpg" class="card-img-top" alt="...">
+                  <div class="ovrly"></div>
+                  <div class="buttons">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                        <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                      </svg>
+                    </a>
+                
+                  </div>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title text-center">María Becerra</h5>
+                  <h5 class="card-title text-center text-tit-amigos ">María Becerra</h5>
                   <p class="card-text text-center text--parrafo">María es mi prima, pero también la considero como mi mejor amiga, hemos compartido muchas anécdotas desde pequeña, actualmente estudia arquitectura en la Universidad de Lima. </p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
-              <div class="card" >
-                <img src="./assets/img/amigospage/8.jpg" class="card-img-top" alt="...">
+              <div class="card card--style" >
+                <div class="effect--img">
+                  <img src="./assets/img/amigospage/8.jpg" class="card-img-top" alt="...">
+                  <div class="ovrly"></div>
+                  <div class="buttons">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                        <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                      </svg>
+                    </a>
+                
+                  </div>
+                </div>
                 <div class="card-body">
-                  <h5 class="card-title text-center fw-bold text--parrafo ">Estefany Mendoza</h5>
+                  <h5 class="card-title text-center text-tit-amigos ">Estefany Mendoza</h5>
                   <p class="card-text text-center text--parrafo"> La persona más alegre que conocí en la carrera de programación, siempre optimista ante la vida, al terminar la carrera seguimos en contacto, y actualmente es como de la familia.</p>
                  
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
@@ -90,13 +165,25 @@
               </div>
             </div>
             <div class="col-md-3 col-sm-6">
-              <div class="card" >
-                <img src="./assets/img/amigospage/4.jpg" class="card-img-top" alt="...">
+              <div class="card card--style" >
+                <div class="effect--img">
+                  <img src="./assets/img/amigospage/4.jpg" class="card-img-top" alt="...">
+                  <div class="ovrly"></div>
+                  <div class="buttons">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-link-45deg" viewBox="0 0 16 16">
+                        <path d="M4.715 6.542 3.343 7.914a3 3 0 1 0 4.243 4.243l1.828-1.829A3 3 0 0 0 8.586 5.5L8 6.086a1.002 1.002 0 0 0-.154.199 2 2 0 0 1 .861 3.337L6.88 11.45a2 2 0 1 1-2.83-2.83l.793-.792a4.018 4.018 0 0 1-.128-1.287z"/>
+                        <path d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 1 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 1 0-4.243-4.243L6.586 4.672z"/>
+                      </svg>
+                    </a>
+                
+                  </div>
+                </div>
                 <span>
                 
                 </span>
                 <div class="card-body">
-                  <h5 class="card-title text-center">Carlos Cabrera</h5>
+                  <h5 class="card-title text-center text-tit-amigos ">Carlos Cabrera</h5>
                   <p class="card-text text-center text--parrafo">Nos conocimos mientras estudiabamos inglés en el centro de idiomas de la universidad, un chico bastante conversador y entretenido, actualente se gradúo como Ingeniero Civil</p>
                   <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
                 </div>

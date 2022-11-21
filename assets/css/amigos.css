@@ -53,14 +53,21 @@ table {
     --colo-base: #cbaa51;
 	--color-black:rgba(0, 0, 0, 0.186);
 	--base-tranparent: rgba(203, 170, 81, 0.663);
+	--text--parrafo:'Poppins', sans-serif;
+	--text--title:'Lobster Two', cursive;
 	
 }
-
+/* ESTILOS DE TEXTOS EN AMIGOS.HTML */
 .text--parrafo{
      font-family: 'Poppins', sans-serif;
 	 font-weight:600;
 }
-
+.text-tit-amigos{
+	font-family: 'Lobster Two', cursive;
+	font-size:1.4rem;
+	font-weight:bold;
+	color:var(--color-base)
+}
 .text--titles{
 	font-family: 'Lobster Two', cursive;
 	font-size:2.5rem;
@@ -76,6 +83,10 @@ table {
     /* font-family: 'Lobster Two', cursive; :  TITULOS*/
     /* font-family: 'Poppins', sans-serif; :PARRAFOS */
     /* color-base: #cbaa51 */
+
+
+/* ESTILOS HEADER */
+
 .cont--header{
 	/* position: fixed;
 	top: 0;
@@ -108,30 +119,9 @@ table {
 }
 
 .bg--container{
-	/* background-image: url(../img/amigos.png);
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	
-	height: auto; */
-	/* max-height: 100%; */
+
 	background-color: var(--colo-base);
-	position: absolute;
-	display: grid;
-	top: 0;
-	z-index: -5;
-	
-
 }
-
-/* .text--tit{
-	display: grid;
-}
-.text-center{
-	display: grid;	
-	position: absolute;
-	justify-items: end;
-	
-} */
 
 .text--tit h2{
 	align-items: center;
@@ -142,8 +132,84 @@ table {
 	font-weight: bold; 
 	
 } 
+.text-responsive{
+	font-family:'Poppins', sans-serif; 
+	
+	font-weight: bold;
 
+}
+.text-responsive a{
+	color:white;
+}
+/* SECCION AMIGOS */
 
+.card--style:hover{
+	box-shadow: var(--base-tranparent) 5px 3px 5px 3px;
+}
+.effect--img {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    -webkit-box-shadow: 1px 1px 3px 0 rgba(203, 170, 81, 0.663);
+    -moz-box-shadow: 1px 1px 3px 0 rgba(203, 170, 81, 0.663);
+    box-shadow: 1px 1px 3px 0 rgba(203, 170, 81, 0.663);
+}
+.effect--img img {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.effect--img .ovrly {
+    background: rgba(203, 170, 81, 0.663);
+    height: 100%;
+    left: 0;
+    top: -100%;
+    width: 100%;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.effect--img .buttons {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.effect--img .buttons svg {
+    margin: 0 1px;
+    background: rgb(256, 256, 256);
+    -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: rgba(50, 50, 50, 0.9);
+    display: inline-block;
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+.effect--img:hover .buttons {
+    top: 50%;
+}
+.effect--img:hover .ovrly {
+    top: 0;
+}
 
 
 /* SECCION VIAJES */
@@ -264,12 +330,12 @@ table {
   }
 
 @media (min-width: 992px){
-	.text--tit h2{
-		margin-top: -280px;
-		/* margin-bottom: 280px; */
-	}
+	/* .text--tit h2{
+		margin-top: -280px; 
+	 margin-bottom: 280px;
+	} */
 	.section--amigos{
-		margin-top:325px; 
+		/* margin-top:325px;  */
 		background-color: white;
 		
 	}
