@@ -54,6 +54,6 @@ Este sitio web está basado en este wireframe:
 
 - Leslie Sarybell Gómez Vargas
 - Franklin Espinoza Espíndola
-- Jean Carlos
+- Jean Carlos Salazar Sarmiento
 - Daniel Olger Guzman Rosas
 - Maribel Torres Guevara
